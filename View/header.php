@@ -1,3 +1,4 @@
+<!--php require 'connection.php' ?-->
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -11,9 +12,9 @@
             <h1 class="d-inline">Product List</h1>
         </div>
         <div class="float-end">
-            <a class="btn btn-primary" href="{{--route('product.add')--}}">ADD</a>
-            {{-- delete should be done using JS--}}
-            <a id="delete-product-btn" class="btn btn-danger" href="{{--route('product.delete')--}}">MASS DELETE</a>
+            <a class="btn btn-primary" href="http://localhost/Scandiweb/PHP/add-product.php">ADD</a>
+            <!-- delete should be done using JS -->
+            <button type="submit" id="delete-product-btn" class="btn btn-danger" form="delete_form" >MASS DELETE</button>
         </div>
         <hr>
     </div>
